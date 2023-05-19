@@ -138,7 +138,7 @@ def MAHIN():
         to = open('/storage/emulated/0/ban.txt', 'r').read()
     except (KeyError, IOError):
         MAHIN2()
-    xobuj = requests.get('https://github.com/mahinxhowdhory/mytools/blob/main/approvl.txt').text
+    xobuj = requests.get('https://github.com/mahinxhowdhory/BLACK-WEB/blob/main/appruval.txt').txt
     if to in xobuj:
         time.sleep(2)
         mahin_menu()
